@@ -1,0 +1,173 @@
+#container{
+	width:1050px;
+	border:1px solid black;
+	margin:0 auto;
+}
+
+#brandBox{
+	float:left;
+}
+
+h1 a{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 50px;
+	font-weight: 100;
+    color:blueviolet;
+	text-decoration: none;
+}
+
+#searchBox{
+	float:right;
+	background: linear-gradient(#E5F2BB,#B7E952);
+	width:300px;
+	height:50px;
+	display:flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	padding:13px 20px 6px 18px;
+	margin-top:20px;
+}
+
+.search{
+	color:white;
+	background:rgb(231, 68, 231);
+	padding:5px;
+	font-weight: 50;
+}
+
+.submit{
+   font-family: sans-serif;
+   font-weight: 50;
+   padding:2px;
+   background-color: purple;
+   color:white;
+}
+
+.searchbar {
+	width: 100%;
+	margin-bottom: 10px;
+	display:flex;
+    justify-content: center;
+	align-items: center;
+}
+
+#searchIcon{
+	font-size: 17px;
+}
+
+#searchIcon:hover {
+	background-color:lightgreen;
+	font-size: 20px;
+}
+
+.clear{
+	clear:both;
+}
+
+.menu{
+	height:70px;
+	background: linear-gradient(#F8F594, #D5D533);
+	padding:10px 0px;
+}
+
+ul{
+	list-style: none;
+}
+
+.menu ul li{
+   float:left;
+   padding:0px 10px;
+   height:30px;
+   border-right: 1px solid #5d12e7;
+}
+
+.menu ul li:last-child{
+	border-right:none;
+}
+.menu ul li a{
+	text-transform:uppercase;
+	font-size:20px;
+	color:#5d12e7;
+	line-height:30px;
+	text-decoration:none;
+	transition:font-size 0.3s ease;
+}
+
+.menu ul li a:hover, .menu ul li a.active {
+	font-weight:bold;
+	font-size:20px;
+	color:blue;
+}
+
+.introduction{
+	background: linear-gradient(#E5F2BB,#B7E952);
+	padding:30px;
+	margin:15px 0px;
+}
+
+.introduction h1{
+	font-size:50px;
+	color:#316901;
+	font-weight: normal;
+}
+
+.introduction p{
+	font-size:25px;
+	color:#789450;
+	text-align:justify;
+}
+
+.sidebar{
+	width:450px;
+	height:500px;
+	border:1px solid #BAF46F;
+	border-radius:20px;
+	padding:10px 30px;
+}
+
+.sidebar h1{
+	color:purple;
+	font-size: 30px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:purple;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration:none;
+	font-size: 30px;
+	font-weight: larger;
+}
+
+#leftsidebar{
+    float:left;
+}
+
+#leftsidebar ul li{
+    padding:10px 20px;
+	list-style: square inside url("sqpurple.gif");
+	font-size: 30px;
+}
+
+#rightsidebar{
+    float:right;
+}
+
+#rightsidebar ul li{
+    padding:15px 30px;
+	list-style: square inside url("sqpurple.gif");
+	font-size:20px;
+}
+
+.footer{
+	height:100px;
+	width:auto;
+	padding-top:10px;
+	border:1px solid black;
+	text-align: center;
+	background: linear-gradient(#F8F594, #D5D533);
+}
