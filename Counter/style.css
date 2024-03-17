@@ -1,0 +1,17 @@
+body{
+    text-align:center;
+}
+
+button{
+   background-color: cyan;
+   border:1px solid black;
+   height:35px;
+   width:35px;
+}
+
+
+.reset {
+    width:45px;
+    height:35px;
+}
+
