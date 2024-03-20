@@ -1,0 +1,49 @@
+*{
+    box-sizing:inherit;
+}
+
+body{
+    text-align: center;
+    display:inherit;
+}
+
+.container{
+    width:80%;
+    height:100vh; 
+    text-align:center; 
+    margin:auto;
+}
+
+.bmiForm{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    padding-left:100px;
+    padding-bottom:10px;
+}
+
+label{
+    display:block;
+    margin:10px 0;
+    font-weight:700;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-bottom:10px;
+
+}
+
+button{
+    background-color: #007bff;
+    color:#ccc;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+    border-radius:5px;
+    width:10%;
+    padding-left: 50px;
+}
