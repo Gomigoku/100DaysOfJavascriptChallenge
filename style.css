@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100%;
+    font-family: 'Redddit Mono', Times, serif;
+    font-size: medium;
+    font-weight: 500px;
+    color: #31363F;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav-center{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li{
+    display:inline;
+    text-align: center;
+    width:500px;
+    /* background-color: grey; */
+    border-radius: 5%;
+    /* border-style: ridge; */
+    font-size: 20px;
+    border:none;
+
+}
+
+li a{
+    padding:10px;
+    text-decoration: none;
+}
+
+.container{
+    text-align: center;
+    padding-top:200px;
+}
+
+.btn{
+    height: 50px;
+    width:90px;
+    background-color: darkgoldenrod;
+    border-radius: 5%;
+    border-style: ridge;
+    border:none;
+    font-weight:500px;
+}
