@@ -1,0 +1,75 @@
+/* body{
+    margin:0;
+    padding:0;
+} */
+
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --text-primary:#b6b6b6;
+    --text-secondary:#ececec;
+    --bg-primary:#23232e;
+    --bg-secondary:#141418;
+}
+
+body::-webkit-scrollbar{
+    width:0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+    background:#1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:#6649b8;
+}
+
+nav{
+    margin-top:-17px;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+nav .nav-center{
+    width:auto;
+    height:15px;
+    background-color: rgb(70, 69, 69);
+    /* text-align: center; */
+}
+
+ul{
+    list-style: none; /*  will remove bullets from lists*/
+    padding:0px;
+    background-color: rgb(65, 65, 65);
+    overflow:hidden;
+}
+
+li{
+    display:inline; /* makes ul elements to sit in one line*/
+    margin-right:10px;
+    margin-left:10px;
+}
+
+
+a{
+    text-decoration: none; /* removes underline of a tag */
+    color:white;
+    display:block; /* display every a tag as block */
+    text-align: center;
+    padding:15px;
+}
+
+.nav-center a:hover{
+    background-color: rgb(33, 33, 33);
+}
+
+.nav-center a{
+    float:left;
+}
+
+main{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:35px;
+}
