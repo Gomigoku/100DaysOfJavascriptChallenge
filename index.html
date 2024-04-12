@@ -3,62 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theme Toggler</title>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Tangerine">
-    <script defer src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <title>Gouthami Poojary</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body class="light">
-    <nav class="navbar">
-        <ul class="navbar-nav">
-            <li class="nav-item"><a>Home</a></li>
-            <li class="nav-item"><a>About</a></li>
-            <li class="nav-item has-dropdown"><a href="theme">Theme</a>
-            <ul class="dropdown">
-                <li class="dropdown-item">
-                    <a id="light" href="#">light</a>
-                </li>
-                <li>
-                    <a id="dark" href="#">dark</a>
-                </li>
-                <li id="solar" href="#">
-                    <a>solarize</a>
-                </li>
-            </ul></li>
+<body>
+    <div id="root"> 
+        <div>
+            <div>
+                 <img src="image.png" alt="my photo"/>
+                 <h1>Gouthami Poojary</h1>
+                 <div>
+                    <div id="role">Full Stack Developer</div>
+                 </div>
+            </div>
+            <br />
+            <div id="links-grid">
+              <a href="" target="_blank" class="grid-item">Gmail</a>
+              <a href="" target="_blank" class="grid-item">Resume</a>
+              <a href="" target="_blank" class="grid-item">Website</a>
+              <a href="" target="_blank" class="grid-item">LinkedIn</a>
+              <a href="" target="_blank" class="grid-item">GitHub</a>
+              <a href="" target="_blank" class="grid-item">Instagram</a>
+              <a href="" target="_blank" class="grid-item">Coding Ninjas</a>
+              <a href="" target="_blank" class="grid-item">LeetCode</a>
+              <a href="" target="_blank" class="grid-item">YouTube</a>
+              <a href="" target="_blank" class="grid-item">Medium</a>
+            </div>
+        </div>
+          
+    </div>
+    <span></span>
+    <div>
 
-            <!-- Dropdown -->
-            <li class="nav-item"><a>Login</a></li>
-        </ul>
-
-    </nav>
-    <header>
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="82" height="40" fill="none" viewBox="0 0 82 40" class="logo"><path fill="#FFD43D" d="M73.365 19.71c0 2.904-2.241 5.31-5.27 5.31-3.03 0-5.228-2.406-5.228-5.31 0-2.905 2.199-5.312 5.228-5.312s5.27 2.407 5.27 5.311Z"></path><path fill="#FF0C81" d="M48.764 19.544c0 2.946-2.323 5.145-5.27 5.145-2.904 0-5.227-2.2-5.227-5.145 0-2.947 2.323-5.104 5.228-5.104 2.946 0 5.27 2.158 5.27 5.104Z"></path><path fill="#11EEFC" d="M20.074 25.02c3.029 0 5.27-2.406 5.27-5.31 0-2.905-2.241-5.312-5.27-5.312-3.03 0-5.228 2.407-5.228 5.311 0 2.905 2.199 5.312 5.228 5.312Z"></path><path fill="#171A26" d="M68.095 30.54c-6.307 0-11.12-4.897-11.12-10.872 0-5.934 4.855-10.83 11.12-10.83 6.349 0 11.162 4.938 11.162 10.83 0 5.975-4.855 10.871-11.162 10.871Zm0-5.52c3.03 0 5.27-2.406 5.27-5.31 0-2.905-2.24-5.312-5.27-5.312-3.029 0-5.228 2.407-5.228 5.311 0 2.905 2.199 5.312 5.228 5.312ZM43.08 40c-4.813 0-8.506-2.116-10.373-5.934l4.896-2.655c.913 1.784 2.614 3.195 5.394 3.195 3.486 0 5.85-2.448 5.85-6.473v-.374c-1.12 1.411-3.111 2.49-6.016 2.49-5.768 0-10.373-4.481-10.373-10.581 0-5.934 4.813-10.788 11.12-10.788 6.431 0 11.162 4.605 11.162 10.788v8.299C54.74 35.27 49.76 40 43.08 40Zm.415-15.311c2.946 0 5.27-2.2 5.27-5.145 0-2.947-2.324-5.104-5.27-5.104-2.905 0-5.228 2.158-5.228 5.104s2.323 5.145 5.228 5.145ZM20.074 30.54c-6.307 0-11.12-4.897-11.12-10.872 0-5.934 4.854-10.83 11.12-10.83 6.348 0 11.162 4.938 11.162 10.83 0 5.975-4.855 10.871-11.162 10.871Zm0-5.52c3.029 0 5.27-2.406 5.27-5.31 0-2.905-2.241-5.312-5.27-5.312-3.03 0-5.228 2.407-5.228 5.311 0 2.905 2.199 5.312 5.228 5.312ZM0 0h5.892v30H0V0ZM82 6.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"></path></svg> -->
-        <svg id="logo-63" width="80" height="80" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo"><path class="stroke" d="M27.5308 40.1395C27.5757 35.5502 26.4122 31.8182 24.9322 31.8037C23.4521 31.7893 22.2159 35.4979 22.1711 40.0871C22.1262 44.6764 23.2897 48.4085 24.7697 48.4229C26.2498 48.4374 27.486 44.7288 27.5308 40.1395Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"></path><path class="stroke" d="M18.947 39.0972C21.4661 35.2608 22.5052 31.4922 21.268 30.6798C20.0307 29.8674 16.9856 32.3188 14.4666 36.1552C11.9475 39.9916 10.9084 43.7601 12.1456 44.5726C13.3829 45.385 16.4279 42.9336 18.947 39.0972Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"></path><path class="stroke" d="M12.2792 33.593C16.4726 31.7278 19.3843 29.1194 18.7827 27.767C18.1812 26.4146 14.2942 26.8304 10.1008 28.6957C5.90744 30.5609 2.99571 33.1693 3.59726 34.5217C4.1988 35.8741 8.08584 35.4583 12.2792 33.593Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"></path><path class="stroke" d="M18.2794 23.9745C18.5046 22.5116 15.0099 20.7597 10.4739 20.0615C5.93778 19.3633 2.07804 19.9833 1.85288 21.4462C1.62772 22.9091 5.1224 24.6609 9.65848 25.3591C14.1945 26.0573 18.0543 25.4373 18.2794 23.9745Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"></path><path class="stroke" d="M19.908 20.4895C20.8882 19.3805 18.895 16.0176 15.4561 12.9783C12.0172 9.93902 8.43482 8.37426 7.45464 9.48332C6.47446 10.5924 8.46766 13.9553 11.9066 16.9946C15.3455 20.0339 18.9279 21.5986 19.908 20.4895Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"></path><path class="stroke" d="M23.1514 18.4528C24.5756 18.0498 24.7171 14.1431 23.4675 9.72704C22.2179 5.31095 20.0503 2.05771 18.6261 2.46072C17.2019 2.86373 17.0604 6.77037 18.31 11.1865C19.5596 15.6025 21.7272 18.8558 23.1514 18.4528Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"></path><path class="stroke" d="M31.9584 11.3239C33.2949 6.9333 33.2305 3.02462 31.8145 2.59361C30.3985 2.16259 28.1672 5.37245 26.8307 9.76304C25.4943 14.1536 25.5587 18.0623 26.9747 18.4933C28.3907 18.9243 30.622 15.7145 31.9584 11.3239Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"></path><path class="stroke" d="M38.2514 17.2565C41.7491 14.285 43.8077 10.9617 42.8493 9.83373C41.891 8.70573 38.2787 10.2002 34.7811 13.1716C31.2834 16.1431 29.2249 19.4664 30.1832 20.5944C31.1415 21.7224 34.7538 20.228 38.2514 17.2565Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"></path><path class="stroke" d="M40.3322 25.6519C44.8812 25.0433 48.4097 23.3607 48.2134 21.8936C48.0172 20.4266 44.1704 19.7307 39.6214 20.3392C35.0725 20.9478 31.5439 22.6304 31.7402 24.0975C31.9365 25.5645 35.7832 26.2605 40.3322 25.6519Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"></path><path class="stroke" d="M46.2004 34.941C46.8285 33.6008 43.9688 30.9355 39.813 28.9879C35.6573 27.0403 31.7792 26.548 31.1511 27.8882C30.523 29.2285 33.3827 31.8938 37.5385 33.8414C41.6942 35.7889 45.5723 36.2813 46.2004 34.941Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"></path><path class="stroke" d="M37.4589 44.8299C38.7119 44.0421 37.7473 40.2537 35.3044 36.3684C32.8615 32.4831 29.8653 29.9722 28.6123 30.76C27.3593 31.5478 28.3239 35.3362 30.7668 39.2215C33.2097 43.1068 36.2059 45.6178 37.4589 44.8299Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"></path></svg>
-        <h1>Front End Development, <br>Fired Up</h1>
-        <p>Flutter, FireBase, Javascript, Node.js</p>
-    </header>
-    <main>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Blandit aliquam etiam erat velit. Elementum eu facilisis sed odio morbi quis commodo. Sit amet commodo nulla facilisi nullam vehicula ipsum a. Dui vivamus arcu felis bibendum. Ut sem nulla pharetra diam sit amet nisl. Pretium nibh ipsum consequat nisl vel pretium lectus quam id. Lacus laoreet non curabitur gravida arcu ac tortor. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Nibh praesent tristique magna sit amet purus gravida. Semper eget duis at tellus. In pellentesque massa placerat duis ultricies. Nisl rhoncus mattis rhoncus urna neque. Ut sem nulla pharetra diam sit amet nisl suscipit. Pulvinar pellentesque habitant morbi tristique. Fames ac turpis egestas sed tempus.
-
-            Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Eu ultrices vitae auctor eu augue ut lectus arcu bibendum. In nibh mauris cursus mattis molestie a iaculis at. Mauris pharetra et ultrices neque ornare aenean euismod elementum. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Id leo in vitae turpis massa. Tristique risus nec feugiat in fermentum. Dui id ornare arcu odio ut sem nulla pharetra. Enim sed faucibus turpis in eu mi bibendum neque. Erat imperdiet sed euismod nisi porta. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Sed pulvinar proin gravida hendrerit lectus a. Mattis pellentesque id nibh tortor id.
-            
-            Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Ornare quam viverra orci sagittis eu volutpat odio facilisis. Pretium vulputate sapien nec sagittis aliquam. Morbi tristique senectus et netus et malesuada. Lectus sit amet est placerat. Metus dictum at tempor commodo ullamcorper a. Dictum sit amet justo donec enim diam vulputate ut. Morbi tincidunt augue interdum velit euismod in pellentesque massa. Eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Ultrices sagittis orci a scelerisque purus semper eget duis at. Amet dictum sit amet justo donec enim diam.
-            
-            Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Etiam erat velit scelerisque in dictum. Sed risus pretium quam vulputate. Senectus et netus et malesuada fames ac. Non sodales neque sodales ut. Hendrerit gravida rutrum quisque non. Sit amet nulla facilisi morbi tempus iaculis. Eros in cursus turpis massa tincidunt dui. Porttitor lacus luctus accumsan tortor. Consequat id porta nibh venenatis cras sed felis. At lectus urna duis convallis convallis tellus. Dapibus ultrices in iaculis nunc. Duis at tellus at urna condimentum mattis.
-            
-            Sapien et ligula ullamcorper malesuada proin. Pulvinar sapien et ligula ullamcorper malesuada. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Risus feugiat in ante metus dictum at. Phasellus vestibulum lorem sed risus. Cursus risus at ultrices mi tempus imperdiet. Velit egestas dui id ornare arcu odio ut sem. Congue nisi vitae suscipit tellus mauris. Magna eget est lorem ipsum dolor sit amet consectetur. Consectetur adipiscing elit duis tristique sollicitudin. Amet est placerat in egestas erat imperdiet. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Pellentesque diam volutpat commodo sed egestas egestas. Ornare aenean euismod elementum nisi quis eleifend.
-            
-            Purus sit amet luctus venenatis. Auctor urna nunc id cursus metus aliquam. Id volutpat lacus laoreet non. Ac tortor vitae purus faucibus. Quam id leo in vitae turpis massa. Neque volutpat ac tincidunt vitae. Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Faucibus a pellentesque sit amet porttitor eget dolor. Sociis natoque penatibus et magnis dis parturient montes nascetur. Erat nam at lectus urna duis convallis convallis tellus. Sollicitudin ac orci phasellus egestas. Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat. Placerat duis ultricies lacus sed. Cursus mattis molestie a iaculis at. Blandit cursus risus at ultrices mi tempus imperdiet.
-            
-            Tristique senectus et netus et malesuada fames ac. Viverra adipiscing at in tellus integer feugiat. In ante metus dictum at tempor commodo. Sed turpis tincidunt id aliquet risus feugiat in. Pellentesque habitant morbi tristique senectus et netus et malesuada. Aliquam vestibulum morbi blandit cursus risus. Mattis molestie a iaculis at erat pellentesque. Gravida arcu ac tortor dignissim. Gravida neque convallis a cras semper auctor. Sed risus pretium quam vulputate dignissim suspendisse in. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. At volutpat diam ut venenatis tellus in metus. Pharetra magna ac placerat vestibulum lectus mauris. Euismod in pellentesque massa placerat duis ultricies lacus.
-            
-            Consectetur adipiscing elit duis tristique sollicitudin nibh sit. Auctor elit sed vulputate mi sit amet mauris commodo quis. Vestibulum morbi blandit cursus risus at ultrices mi. Egestas sed tempus urna et pharetra pharetra massa massa. Purus in massa tempor nec. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Sit amet cursus sit amet. Orci ac auctor augue mauris augue neque gravida in fermentum. Nunc pulvinar sapien et ligula ullamcorper. Arcu dictum varius duis at consectetur lorem donec massa. Et pharetra pharetra massa massa ultricies. Nulla malesuada pellentesque elit eget gravida cum sociis. Ut tortor pretium viverra suspendisse potenti nullam ac. Vulputate mi sit amet mauris commodo. Vitae nunc sed velit dignissim sodales ut. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare. Etiam sit amet nisl purus. Egestas diam in arcu cursus euismod.
-            
-            Nisi vitae suscipit tellus mauris a diam maecenas. Sit amet volutpat consequat mauris nunc. Libero id faucibus nisl tincidunt eget nullam non nisi. In nibh mauris cursus mattis molestie a iaculis at. Aenean et tortor at risus viverra adipiscing. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Cras fermentum odio eu feugiat. Habitant morbi tristique senectus et netus et. Neque volutpat ac tincidunt vitae semper. Tristique magna sit amet purus gravida quis. Id neque aliquam vestibulum morbi blandit. Ut placerat orci nulla pellentesque dignissim enim sit amet. Turpis egestas integer eget aliquet. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa. In fermentum et sollicitudin ac orci. Neque viverra justo nec ultrices dui. Aliquet risus feugiat in ante metus dictum.
-            
-            Id aliquet lectus proin nibh nisl condimentum id. Tempus quam pellentesque nec nam aliquam sem. Interdum posuere lorem ipsum dolor sit amet. Sapien eget mi proin sed. Nulla aliquet enim tortor at auctor urna nunc. Netus et malesuada fames ac turpis egestas sed tempus. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in ante metus dictum at tempor commodo. Id eu nisl nunc mi ipsum faucibus vitae. Netus et malesuada fames ac turpis egestas sed. Nibh ipsum consequat nisl vel pretium lectus. Sit amet nulla facilisi morbi tempus iaculis. Amet volutpat consequat mauris nunc congue nisi. In mollis nunc sed id semper. Nullam ac tortor vitae purus faucibus ornare suspendisse. Quis enim lobortis scelerisque fermentum. In vitae turpis massa sed elementum tempus. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus.</p>
-    </main>
-    
+    </div>
 </body>
 </html>
